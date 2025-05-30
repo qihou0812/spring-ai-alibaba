@@ -28,9 +28,6 @@ services:
         caPort: 18080
         customRuntimeConfig:
           command:
-            - ''
-          args:
-            - ''
             - java
             - '-Dserver.port=18080'
             - '-jar'
